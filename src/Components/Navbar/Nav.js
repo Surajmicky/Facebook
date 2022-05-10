@@ -4,21 +4,24 @@ import styled from 'styled-components';
 
 export const Nav = styled.div`
 border: 1px solid red;
-margin-top: 10px;
 width: 100%;
+display: flex;
 `
 export const FirstDiv = styled.div`
-width: 20%;
-border: 1px solid black;
-display:flex;
-justify-content: space-around;
-
-
-
+flex: 2;
+display: flex;
+border: 3px solid black;
+padding: 5px 18px;
+align-items: center;
+/* align-content: center; */
 
 `
-export const SecondDiv = styled.div``
-export const ThirdDiv = styled.div``
-export const Logo = styled.div``
-export const Input = styled.div``
+export const SecondDiv = styled.div`
+flex: 3;
+`
+export const ThirdDiv = styled.div`
+flex: 2;
+`
+
+
 
